@@ -181,7 +181,6 @@ fun HomePagerMaterial(
                 UpdateCard()
             }
             InfoCard()
-            DonateCard()
             LearnMoreCard()
             Spacer(Modifier.height(bottomInnerPadding))
         }
@@ -627,7 +626,6 @@ private fun HomeScreenPreviewContent(
                 moduleCount = moduleCount,
             )
             InfoCard(previewSystemInfo.copy(selinuxStatus = selinuxStatus))
-            DonateCard()
             LearnMoreCard()
         }
     }
