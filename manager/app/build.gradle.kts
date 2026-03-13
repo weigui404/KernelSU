@@ -33,7 +33,7 @@ val baseCFlags = listOf(
 val baseCppFlags = baseCFlags + "-fno-rtti"
 
 android {
-    namespace = "me.weishu.kernelsu"
+    namespace = "me.weigui.kernelsu"
 
     buildTypes {
         debug {
