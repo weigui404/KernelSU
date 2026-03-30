@@ -130,7 +130,7 @@ pub fn run(package_name: &String) -> Result<()> {
         .args([
             "start",
             "-n",
-            &format!("{package_name}/me.weishu.kernelsu.ui.MainActivity"),
+            &format!("{package_name}/me.weigui.kernelsu.ui.MainActivity"),
         ])
         .status();
 
