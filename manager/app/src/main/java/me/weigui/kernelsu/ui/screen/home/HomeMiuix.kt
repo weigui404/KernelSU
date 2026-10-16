@@ -171,10 +171,10 @@ fun HomePagerMiuix(
                             systemInfo = state.systemInfo,
                             modifier = Modifier.fillMaxWidth(),
                         )
-                        SupportLinks(
+                        /*SupportLinks(
                             onOpenUrl = actions.onOpenUrl,
                             modifier = Modifier.fillMaxWidth(),
-                        )
+                        )*/
                         Spacer(
                             Modifier.height(
                                 bottomInnerPadding + if (!Natives.isFullFeatured())
@@ -433,7 +433,7 @@ private fun StatusCard(
     }
 }
 
-@Composable
+/*@Composable
 private fun SupportLinks(
     onOpenUrl: (String) -> Unit,
     modifier: Modifier = Modifier,
@@ -468,7 +468,7 @@ private fun SupportLinks(
             onClick = { onOpenUrl(learnMoreUrl) },
         )
     }
-}
+}*/
 
 @Composable
 private fun InfoCard(
@@ -649,10 +649,10 @@ private fun HomeScreenPreviewContent(
                 systemInfo = previewSystemInfo.copy(selinuxStatus = selinuxStatus),
                 modifier = Modifier.fillMaxWidth(),
             )
-            SupportLinks(
+            /*SupportLinks(
                 onOpenUrl = {},
                 modifier = Modifier.fillMaxWidth(),
-            )
+            )*/
         }
     }
 }

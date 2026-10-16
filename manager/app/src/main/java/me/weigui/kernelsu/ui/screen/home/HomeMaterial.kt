@@ -134,7 +134,7 @@ fun HomePagerMaterial(
                 actions = actions,
             )
             InfoCard(systemInfo = state.systemInfo)
-            SupportLinks(onOpenUrl = actions.onOpenUrl)
+            /*SupportLinks(onOpenUrl = actions.onOpenUrl)*/
             Spacer(
                 Modifier.height(
                     bottomInnerPadding + if (!Natives.isFullFeatured())
@@ -355,7 +355,7 @@ private fun WarningCard(
     }
 }
 
-@Composable
+/*@Composable
 private fun SupportLinks(
     onOpenUrl: (String) -> Unit,
     modifier: Modifier = Modifier,
@@ -386,7 +386,7 @@ private fun SupportLinks(
             )
         }
     }
-}
+}*/
 
 @Composable
 private fun InfoCard(
@@ -552,7 +552,7 @@ private fun HomeScreenPreviewContent(
                 actions = actions
             )
             InfoCard(previewSystemInfo.copy(selinuxStatus = selinuxStatus))
-            SupportLinks(onOpenUrl = {})
+            /*SupportLinks(onOpenUrl = {})*/
         }
     }
 }
